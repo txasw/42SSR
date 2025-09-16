@@ -31,7 +31,7 @@ This script was created to:
 
 ## 🛠 How to Use
 
-1. Open your project slot page on [projects.intra.42.fr](https://projects.intra.42.fr)
+1. Open your project page on [projects.intra.42.fr](https://projects.intra.42.fr)
 2. Click **Subscribe to defense** to open the slot calendar
 3. Open **DevTools → Console**
 4. Paste one of the scripts below
@@ -39,7 +39,7 @@ This script was created to:
 
 ---
 
-### 🔄 Manual Reload (Console Only)
+## 🔄 Manual Reload (Console Only)
 
 Use this if you just want to reload slots once
 
@@ -75,7 +75,7 @@ Use this if you just want to reload slots once
 })();
 ```
 
-### 🖱 Version with Floating Button
+## 🖱 Version with Floating Button
 
 This version adds a floating Reload Slots button at the top right corner of the page
 
@@ -114,7 +114,7 @@ This version adds a floating Reload Slots button at the top right corner of the 
 })();
 ```
 
-### 🚀 Optional: Auto-Reload Every X Seconds
+## 🚀 Optional: Auto-Reload Every X Seconds
 
 If you want the page to auto-refresh slots every 30 seconds:
 
@@ -122,5 +122,7 @@ If you want the page to auto-refresh slots every 30 seconds:
 setInterval(() => $('#calendar').fullCalendar('refetchEvents'), 30000);
 ```
 
-### 📸 Screenshot
+---
+
+## 📸 Screenshot
 ![capture](https://github.com/txasw/42SSR/blob/main/capture.gif)
