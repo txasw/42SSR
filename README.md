@@ -69,7 +69,7 @@ Use this if you just want to reload slots once
           .val(i)
           .text("From " + start.format("LT") + " to " + to.format("LT"))
       );
-      start.subtract((duration - 1) * 15, "m");
+      start.add(15, "m");
     }
     $list.data("ids", ids.join(","));
   }
@@ -131,7 +131,7 @@ This version adds a floating Reload Slots button at the top right corner of the 
           .val(i)
           .text("From " + start.format("LT") + " to " + to.format("LT"))
       );
-      start.subtract((duration - 1) * 15, "m");
+      start.add(15, "m");
     }
     $list.data("ids", ids.join(","));
   }
